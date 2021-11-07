@@ -4,7 +4,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        jetbrains: ["JetBrains Mono"],
+        jetbrains: ["JetBrains Mono", "monospace"],
+      },
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        lgray: {
+          light: "#E9ECEF",
+          dark: "#495057",
+          darkest: "#343A40",
+          DEFAULT: "#6C757D",
+        },
       },
     },
   },
