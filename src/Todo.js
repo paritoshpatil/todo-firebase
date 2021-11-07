@@ -12,7 +12,7 @@ function Todo(props) {
   };
 
   return (
-    <li className="flex flex-row items-center text-2xl">
+    <li className="flex flex-row items-center text-2xl rounded-lg bg-white shadow-lg p-3 border-2 border-transparent hover:border-lgray">
       {props.todo.completed && (
         // if task is completed
         <button onClick={changeCompletedLocal}>
